@@ -10,3 +10,8 @@
 
 
 def format_string(string, length):
+    if len(string) >= length:
+        return string
+    else:
+        num_spaces = (length - len(string)) // 2
+        return ' ' * num_spaces + string
