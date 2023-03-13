@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f76920ab-00ac-4a18-9974-fb47b566f768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7/factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5_6/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw5_6/task1.py" afterDir="false" />
-    </list>
+    <list default="true" id="f76920ab-00ac-4a18-9974-fb47b566f768" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +190,7 @@
       <workItem from="1678200988084" duration="3948000" />
       <workItem from="1678718522776" duration="2466000" />
       <workItem from="1678721192736" duration="258000" />
-      <workItem from="1678721821862" duration="1487000" />
+      <workItem from="1678721821862" duration="2062000" />
     </task>
     <servers />
   </component>
