@@ -9,3 +9,11 @@
 # Эту задачу можно решить рекурсивно, вызывая функцию, вычисляющую числа последовательности до тех
 # пор, пока вызов не дойдет до членов ряда меньше n = 1, где последовательность задана.
 def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+print(fibonacci(0))  # 0
+print(fibonacci(1))  # 1
+print(fibonacci(7))  # 13
+print(fibonacci(9)) # 34
