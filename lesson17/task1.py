@@ -21,7 +21,7 @@
 # Alex Denver,30
 # Drake Mikelsson,19
 from pathlib import Path
-path = Path('text.txt')
+path = Path('../lesson18/text.txt')
 
 
 employee_list = [['Robert Stivenson,28', 'Alex Denver,30'], ['Drake Mikelsson,19']]

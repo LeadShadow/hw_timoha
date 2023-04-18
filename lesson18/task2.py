@@ -15,5 +15,24 @@
 # прочтите содержимое файла, используя режим "r".
 # мы пока не используем менеджер контекста with
 # верните из функции список сотрудников из файла
+from pathlib import Path
+
 
 def read_employees_from_file(path):
+    file = open(path, 'r', encoding='utf-8')
+    result = []
+    while True:
+        line = file.readline().strip()
+        if not line:
+            break
+        result.append(line)
+    file.close()
+    return result
+
+
+if __name__ == "__main__":
+    path = Path('text.txt')
+    print(read_employees_from_file(path))
+
+
+

@@ -1,10 +1,10 @@
-fh = open('text.txt')
+fh = open('../lesson18/text.txt')
 try:
     print(fh.readline())
 finally:
     fh.close()
 
-with open('text.txt', 'r', encoding='utf-8') as fh:
+with open('../lesson18/text.txt', 'r', encoding='utf-8') as fh:
     print(fh.readline())
 
 
