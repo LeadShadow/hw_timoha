@@ -50,3 +50,58 @@ REGISTER_EXTENSIONS = {
     'TXT': TXT_DOCUMENTS,
     'PDF': PDF_DOCUMENTS
 }
+
+
+def get_extensions(filename: str):
+    # перетворюємо розширення файлу в назву папки .txt -> TXT
+    return Path(filename).suffix[1:].upper()  # 'test.txt' -> 'TXT'
+
+
+# C:\users\pc\desktop\test
+def scan(folder: Path):
+    for item in folder.iterdir():
+        # якщо це папка то додаємо в список FOLDERS і переходимо до наступного елементу
+        if item.is_dir():
+            # перевіряємо щоб ця папка не була тою в яку ми складаємо файли
+            if item.name not in ('archives', 'video', 'audio', 'documents', 'images', 'OTHER'):
+                FOLDERS.append(item)
+                # скануємо вкладену папку(рекурсія)
+                scan(item)
+            # перейдемо до наступного елементу в нашій папці
+            continue
+
+        # Пішла робота з файлом
+        ext = get_extensions(item.name) # беремо розширення файлу
+        fullname = folder / item.name # взяти повний шлях до файлу
+        if not ext:
+            OTHER.append(fullname)
+        else:
+            try:
+                # взяти список куди покласти повний шлях до файлу
+                container = REGISTER_EXTENSIONS[ext]  # 'RAR'
+                EXTENSIONS.add(ext)
+                container.append(fullname)
+            except KeyError:
+                # якщо ми не зареєстрували розширення в REGISTER_EXTENSIONS то додати до UNKNOWN
+                UNKNOWN.add(ext)
+                OTHER.append(fullname)
+
+
+if __name__ == "__main__":
+    folder_for_scan = input('Input path: ')
+    print(f'Start in folder {folder_for_scan}')
+
+    scan(Path(folder_for_scan))
+    print(f'Images jpeg: {JPEG_IMAGES}')
+    print(f'Images jpg: {JPG_IMAGES}')
+    print(f'Images png: {PNG_IMAGES}')
+    print(f'Images svg: {SVG_IMAGES}')
+
+    print(f'Documents txt: {TXT_DOCUMENTS}')
+    print(f'Documents pptx: {PPTX_DOCUMENTS}')
+    print(f'Documents doc: {DOC_DOCUMENTS}')
+    print(f'Documents docx: {DOCX_DOCUMENTS}')
+    print(f'Documents pdf: {PDF_DOCUMENTS}')
+    print(f'Documents xlsx: {XLSX_DOCUMENTS}')
+
+
