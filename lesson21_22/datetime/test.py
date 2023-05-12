@@ -52,3 +52,11 @@ date_1970 = datetime(year=1970, month=1, day=1)
 ts += 1000_000_000
 print(datetime.fromtimestamp(ts))
 
+
+day = datetime(year=2023, month=5, day=10)
+print(day.strftime('%A %d %B %Y'))
+
+
+s = '10 January 2020'
+print(datetime.strptime(s, '%d %B %Y'))
+

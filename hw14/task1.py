@@ -11,3 +11,21 @@
 # (без времени).
 # Например: Если текущая дата — 5 мая 2021, то вызов
 # get_days_from_today("2021-10-09") вернет нам -157.
+from datetime import datetime
+
+
+def get_days_from_today(date: str):
+    """2004-11-28"""
+    date = date.split('-')
+    a, b, c = int(date[0]), int(date[1]), int(date[2])
+    another_date = datetime(year=a, month=b, day=c)
+    date_now = datetime.now()
+    return (date_now - another_date).days
+
+
+
+if __name__ == "__main__":
+    print(get_days_from_today('2023-05-28'))
+
+
+
