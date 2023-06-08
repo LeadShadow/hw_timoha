@@ -50,4 +50,4 @@ def sanitize_phone_number(phone):
 
 
 if __name__ == "__main__":
-    print(sanitize_phone_number('   +38-937(31)(60)(48)     '))
+    print(sanitize_phone_number('   +38-937(lesson31)(60)(48)     '))

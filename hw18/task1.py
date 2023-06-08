@@ -4,3 +4,15 @@
 # оператор pass, пока главное — это определение, а не конкретная реализация.
 
 class Animal:
+    def __init__(self, nickname, weight):
+        self.nickname = nickname
+        self.weight = weight
+
+    def say(self):
+        print(f"{self.nickname} says something...")
+
+# Создание экземпляра класса Animal
+animal = Animal("Лео", 150)
+
+# Вызов метода say()
+animal.say()

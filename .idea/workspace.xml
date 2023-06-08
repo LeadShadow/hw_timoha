@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f76920ab-00ac-4a18-9974-fb47b566f768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson29/assistant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson29/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson29/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson29/verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson31/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson31/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson31/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson31/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw17/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw17/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw18/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw18/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson28/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson28/task3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/hw15/task1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/hw16/task1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/hw17/task1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/hw18/task1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/hw3_4/task1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/hw3_4/task2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/hw5_6/task1.py" root0="SKIP_INSPECTION" />
@@ -122,7 +124,7 @@
       <recent name="C:\Users\pc\Desktop\заняття\hw_timoha\lesson18" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.test (2)">
     <configuration name="assistant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hw_timoha" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hw_timoha" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson28" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson31" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson28/task4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson31/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hw_timoha" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson28" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson28/task5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson32/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.assistant" />
         <item itemvalue="Python.decorator" />
-        <item itemvalue="Python.task5" />
-        <item itemvalue="Python.task4" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +290,9 @@
       <workItem from="1684252623049" duration="4430000" />
       <workItem from="1684770675237" duration="8684000" />
       <workItem from="1685375413253" duration="9220000" />
+      <workItem from="1685605896647" duration="226000" />
+      <workItem from="1685980559508" duration="3753000" />
+      <workItem from="1686066900537" duration="4496000" />
     </task>
     <servers />
   </component>
@@ -315,7 +320,7 @@
     <SUITE FILE_PATH="coverage/hw_timoha$ternarn_operation.coverage" NAME="ternarn_operation Coverage Results" MODIFIED="1676995105259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson2" />
     <SUITE FILE_PATH="coverage/hw_timoha$3task.coverage" NAME="3task Coverage Results" MODIFIED="1678117677489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
     <SUITE FILE_PATH="coverage/hw_timoha$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1681142029521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson15" />
-    <SUITE FILE_PATH="coverage/hw_timoha$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1684255868399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26" />
+    <SUITE FILE_PATH="coverage/hw_timoha$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1685983670157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson31" />
     <SUITE FILE_PATH="coverage/hw_timoha$task_pathlib.coverage" NAME="task_pathlib Coverage Results" MODIFIED="1680623657959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13" />
     <SUITE FILE_PATH="coverage/hw_timoha$orenda.coverage" NAME="orenda Coverage Results" MODIFIED="1676994703322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson2" />
     <SUITE FILE_PATH="coverage/hw_timoha$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1684859914667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28" />
@@ -334,7 +339,7 @@
     <SUITE FILE_PATH="coverage/hw_timoha$main.coverage" NAME="main Coverage Results" MODIFIED="1682438254087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_20" />
     <SUITE FILE_PATH="coverage/hw_timoha$task_test.coverage" NAME="task_test Coverage Results" MODIFIED="1684773507708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27" />
     <SUITE FILE_PATH="coverage/hw_timoha$task1__2_.coverage" NAME="task1 (2) Coverage Results" MODIFIED="1683740257156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22/decimal" />
-    <SUITE FILE_PATH="coverage/hw_timoha$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1683741489361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson23/math" />
+    <SUITE FILE_PATH="coverage/hw_timoha$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1686070442711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32" />
     <SUITE FILE_PATH="coverage/hw_timoha$file_parser.coverage" NAME="file_parser Coverage Results" MODIFIED="1682436627772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_20" />
     <SUITE FILE_PATH="coverage/hw_timoha$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1684774166223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27" />
     <SUITE FILE_PATH="coverage/hw_timoha$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1678722289817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
