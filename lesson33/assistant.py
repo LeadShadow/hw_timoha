@@ -91,13 +91,13 @@ def add_contact(contacts: AddressBook, *args: tuple) -> str:
         return f'Add user {name} with phone number {phone}'
 
 
-
 @InputError
 def change_contact(contacts, *args):
     name, old_phone, new_phone = args[0], args[1], args[2]
     new_phone = verify_phone(new_phone)
     contacts[name].edit_phone(old_phone, new_phone)
     return f"Change user's {name} phone number from {old_phone} to {new_phone}"
+
 
 @InputError
 def del_phone(contacts, *args):
@@ -118,6 +118,7 @@ def show_all(contacts: dict, *args) -> str:
         result += f'\n{contacts[key]}'
     return result
 
+
 def goodbye(*args) -> None:
     return None
 
@@ -133,8 +134,11 @@ show <name> - show the user's phone number
 show all - all contacts
 close or . or exit or stop - exit the program"""
 
+
 def unknown_command(*args):
     return 'Unknown command!'
+
+
 COMMANDS = {hello: ['hello'], add_contact: ['add '], change_contact: ['change '], show_phone: ['phone '],
             help: ['?', 'help'], show_all: ['show all'], goodbye: ['good bye', 'close', 'exit', 'stop', '.'],
                                                                    del_phone: ['del ']}
@@ -158,6 +162,7 @@ def main():
         print(command(contacts, *data), '\n')
         if command is goodbye:
             break
+
 
 if __name__ == "__main__":
     main()
